@@ -29,10 +29,8 @@ exit
 
 ### 1. Скачай скрипт
 
-Используй `curl` (замени `URL_С_GITHUB` на прямую ссылку к твоему Gist или репозиторию):
-
 ```bash
-curl -L URL_С_GITHUB -o partition.sh
+curl -L https://raw.githubusercontent.com/sudobytemebaby/system-install-scripts/refs/heads/main/apply-partitions-btrfs.sh -o p.sh
 
 ```
 
@@ -41,7 +39,7 @@ curl -L URL_С_GITHUB -o partition.sh
 Скрипт интерактивно спросит, какой диск использовать (например, `/dev/nvme0n1`), и попросит подтверждение.
 
 ```bash
-bash partition.sh
+bash p.sh
 
 ```
 
